@@ -1,0 +1,81 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+  .container {
+      text-align: center;
+  }
+  .container img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2> Testimonials section </h2>
+<p>Resize the browser window to see the effect.</p>
+
+<div class="container">
+  <img src="https://img-c.udemycdn.com/user/200_H/477291_1867_3.jpg" alt="Avatar" style="width:90px">
+  <span>Michael Ballard</span>
+  <p>INSTRUCTOR :
+    <br>
+               Michael Ballard
+    Learn how to thrive & create more positive outcomes!
+    Total students
+    65,167
+    Reviews
+    417
+    About me
+    Michael Ballard has presented to audiences and consulted with groups from Bermuda to Singapore and coast to coast to coast in North America as an internationally renowned speaker. Thousands of people have deepened their personal and professional ability to thrive using the process and skills he teaches. In the process they've learned how to deal with life's BIG Stuff issues based on the expertise Michael enjoys sharing on resilience. He hopes you will, too!
+    
+    Michael has appeared in over 201 media interviews across North America on resiliency. He has also executive produced over 30 programs and hosted over 30 video interviews on those impacted by life’s BIG Stuff events. In his online school he has students  in over 162 countries.
+   </p>
+</div>
+
+<div class="container">
+  <img src="https://img-c.udemycdn.com/user/200_H/645206_f8af_5.jpg" alt="Avatar" style="width:90px">
+  <p><span>Scott Paton.</span> Executive Producer (42 Podcasts, 100+ courses).</p>
+  <p>Total students
+    609,154
+    Reviews
+    14,219
+    About me
+     He has executive produced and/or co-hosted over 45 podcasts. An internationally renowned speaker, Scott has presented to audiences from London, England to Sydney, Australia, from Vancouver, BC to New York, NY, from LA to Rwanda. Thousands of entrepreneurs and NGO's have changed their public engagement strategies based on Scott's sharing. We hope you will, too! 
+    
+    Scott joined Udemy in 2013. In late 2014, one of his clients inspired him to make a video course on Podcasting. He revisited Udemy and got very excited at the potential. After his course went live, Scott told his clients and many decided to make courses but needed help, so he has become a co-instructor with them, while continuing to support and build his own courses. His co-topics all include areas of life-long learning by Scott, including Stock Option Trading, Alternative Health, EFT, and Relationships.</p>
+</div>
+
+</body>
+</html>
+

@@ -1,0 +1,132 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudeflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudeflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+        </script>
+        <style type=" text/css">
+            body{
+                background: rgb(238, 220, 220); 
+                padding-top: 20px;
+                font-family:  -webkit-pictograph;
+
+            }
+            header{
+                border-radius:20px 20px 0px 0px;
+                padding: 10px 0px;
+                background: purple;
+                color:
+            }
+        
+        </style>
+    
+    
+</head>
+<body>
+    <div class="cointainer">
+        <div class="row">
+            <div FAQ wrapped>
+                <div class="header">
+                    <h1> FAQ </h1>
+                    <div class="FAQ-inner">
+                        <div class="FAQ-item">
+                            <h3>
+                                What is online  course?
+                                <span class="FAQ-plus"> &plus </span>
+                            </h3>
+                                    <div class="FAQ-body">
+                                        An online course is a way to learn a new skill or gain some new knowledge from the comfort of your own home. They can either be paid or offered for free. Some are offered by educational institutions, while others are produced by experts in their field. The most important thing for an online course is for it to be engaging and to deliver a clear outcome.
+                                    </div>
+                                </div>
+                                <h3>
+                                   What is online  course?
+                                <span class="FAQ-plus"> &plus </span>
+                            </h3>
+                                    <div class="FAQ-body">
+                                        An online course is a way to learn a new skill or gain some new knowledge from the comfort of your own home. They can either be paid or offered for free. Some are offered by educational institutions, while others are produced by experts in their field. The most important thing for an online course is for it to be engaging and to deliver a clear outcome.
+                                    </div>
+                                 </div>
+                                 <h3>
+                                    What is online  course?
+                                    <span class="FAQ-plus"> &plus </span>
+                                </h3>
+                                        <div class="FAQ-body">
+                                            An online course is a way to learn a new skill or gain some new knowledge from the comfort of your own home. They can either be paid or offered for free. Some are offered by educational institutions, while others are produced by experts in their field. The most important thing for an online course is for it to be engaging and to deliver a clear outcome.
+                                        </div>
+                                    </div>
+
+
+</div>
+                
+
+
+                    </body>
+</html> -->
+
+
+<style>
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+</style>
+</head>
+<body>
+
+<h2>Accordion</h2>
+
+<button class="Accordion">what is Online couses</button>
+<div class="panel">
+  <p>  An online course is a way to learn a new skill or gain some new knowledge from the comfort of your own home. They can either be paid or offered for free. Some are offered by educational institutions, while others are produced by experts in their field. The most important thing for an online course is for it to be engaging and to deliver a clear outcome.</p>
+</div>
+
+<button class="accordion">what is its benefits ?</button>
+<div class="panel">
+  <p>Online learning offers teachers an efficient way to deliver lessons to students. Online learning has a number of tools such as videos, PDFs, podcasts, and teachers can use all these tools as part of their lesson plans. By extending the lesson plan beyond traditional textbooks to include online resources, teachers are able to become more efficient educators.</p>
+</div>
+
+<button class="accordion">online learning is worth it or not ? </button>
+<div class="panel">
+  <p> Online learning offers teachers an efficient way to deliver lessons to students. Online learning has a number of tools such as videos, PDFs, podcasts, and teachers can use all these tools as part of their lesson plans. By extending the lesson plan beyond traditional textbooks to include online resources, teachers are able to become more efficient educators.</p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
